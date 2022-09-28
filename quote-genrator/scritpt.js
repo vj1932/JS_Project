@@ -42,7 +42,6 @@ async function getQuote() {
 
 
         quoteText.innerHTML = data.quoteText;
-
         complete();
     }
     catch (error) {
