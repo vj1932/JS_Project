@@ -1,15 +1,15 @@
-const QuoteContainer = document.getElementById('quote-container');
+const QuoteContainer = document.getElementById('quotecontainer');
 const quoteText = document.getElementById('quote');
 const authorText = document.getElementById('author');
 const Twitterbtn = document.getElementById('twitter');
 const newQuotetxt = document.getElementById('new-quote');
 const loader = document.getElementById('loader');
-
+// Loading Loader
 function loading(){
     loader.hidden = false;
     QuoteContainer.hidden = true;
 }
-
+// Removing Loader
 function complete(){
     if(!loader.hidden){
         QuoteContainer.hidden = false;
